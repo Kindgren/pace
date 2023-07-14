@@ -1,14 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import HomePage from './pages/HomePage';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <div className="Pace-calculator">
-
-        <HomePage/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
