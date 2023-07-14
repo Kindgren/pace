@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
     background: url('runner.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
